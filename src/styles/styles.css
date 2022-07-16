@@ -1,0 +1,60 @@
+body {
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+}
+
+.advice-number {
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 5px;
+  font-size: 14px;
+}
+
+p {
+  color: hsl(193, 38%, 86%);
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+button {
+  padding: 15px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 100%;
+  border-width: 0px;
+  position: absolute;
+  bottom: -80px;
+}
+
+#advice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+button:hover {
+  box-shadow: 0px 0px 30px hsl(150, 100%, 66%);
+}
+
+.table {
+  background-color: hsl(217, 19%, 24%);
+  margin: 20%;
+  border-radius: 20px;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 5vh;
+  color: hsl(150, 100%, 66%);
+}
+.attribution a {
+  color: wheat;
+  text-decoration: none;
+}
